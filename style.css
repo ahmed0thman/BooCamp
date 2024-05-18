@@ -1,0 +1,19 @@
+body::before{
+  display: block;
+  content: '';
+  height: 50px;
+}
+
+.boxes .card{
+  padding-bottom: 20px;
+}
+
+img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.alert{
+  margin-top: 70px;
+  margin-left: 20px;
+}
