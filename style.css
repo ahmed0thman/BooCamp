@@ -17,3 +17,7 @@ img{
   margin-top: 70px;
   margin-left: 20px;
 }
+
+.transition-opacity{
+  transition: opacity 0.5s ease-out;
+}
