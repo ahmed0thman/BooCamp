@@ -15,6 +15,7 @@ function scrollFunction() {
 
 document.getElementById('enroll-form').addEventListener('submit', function(event) {
 
+  event.preventDefault();
   // Show the success message
   const modalEnroll = document.getElementById('modal-enroll-close');
   modalEnroll.click();
