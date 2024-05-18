@@ -20,11 +20,11 @@ document.getElementById('enroll-form').addEventListener('submit', function(event
   const modalEnroll = document.getElementById('modal-enroll-close');
   modalEnroll.click();
   const successMessage = document.getElementById('successMessage');
-  successMessage.classList.remove('d-none');
+  successMessage.style.opacity = 100;
 
   // Hide the success message after 2 seconds
   setTimeout(function() {
-    successMessage.classList.add('d-none');
+    successMessage.style.opacity = 0;
   }, 3000);
   
 
